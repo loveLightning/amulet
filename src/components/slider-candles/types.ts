@@ -1,6 +1,10 @@
 import { StaticImageData } from 'next/image'
 
+import fifthCandles from '../../../public/images/fifth-candles.png'
 import firstCandles from '../../../public/images/first-candles.png'
+import fourthCandles from '../../../public/images/fourth-candles.png'
+import secondCandles from '../../../public/images/second-candles.png'
+import thirdCandles from '../../../public/images/third-candles.png'
 
 interface CarouselTypes {
   id: number
@@ -31,7 +35,7 @@ export const dataCarousel: CarouselTypes[] = [
   },
   {
     id: 1,
-    image: firstCandles,
+    image: secondCandles,
     title: 'Свеча “Защита от негативного воздействия”',
     action:
       'Оберегает от магического воздействия и защищает энергополе всех, кто находится в пространстве.',
@@ -45,7 +49,7 @@ export const dataCarousel: CarouselTypes[] = [
   },
   {
     id: 2,
-    image: firstCandles,
+    image: thirdCandles,
     title: 'Свеча “Воплощение заветного желания”',
     action:
       'Помогает воплотить заветную мечту, настраивает на успех и усиливает связь с Высшими силами.',
@@ -59,7 +63,7 @@ export const dataCarousel: CarouselTypes[] = [
   },
   {
     id: 3,
-    image: firstCandles,
+    image: fourthCandles,
     title: 'Свеча “Финансовое благополучие”',
     action:
       'Усиливает денежную удачу, расширяет финансовый поток и привлекает благосостояние в дом.',
@@ -72,7 +76,7 @@ export const dataCarousel: CarouselTypes[] = [
   },
   {
     id: 4,
-    image: firstCandles,
+    image: fifthCandles,
     title: 'Свеча “Очищение своего поля и пространства”',
     action:
       'Нейтрализует негативную энергию, порчи и сглазы, изгоняет темных сущностей из вашего пространства.',
